@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1062224224317",
+    "firebase_url": "https://garment-charity-default-rtdb.firebaseio.com",
+    "project_id": "garment-charity",
+    "storage_bucket": "garment-charity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062224224317:android:7b681ec1107cfa42c64a54",
+        "android_client_info": {
+          "package_name": "com.app.garmentcharity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkq5cQxDyRJST5h7cAVC68muHP-ArXzHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

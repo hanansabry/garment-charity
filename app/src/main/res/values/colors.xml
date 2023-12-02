@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#8ec2da</color>
+    <color name="colorPrimaryDark">#4264a3</color>
+    <color name="colorAccent">#d16700</color>
+    <color name="colorAccentDark">#ad5601</color>
+    <color name="colorPrimaryShadowOne">#808ec2da</color>
+    <color name="colorPrimaryShadowTwo">#408ec2da</color>
+    <color name="colorAccentShadowOne">#80d16700</color>
+    <color name="colorAccentShadowTwo">#60d16700</color>
+    <color name="colorThird">#bf204f</color>
+    <color name="colorGray">#96aeba</color>
+    <color name="colorGrayDark">#96aeba</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_2">#313131</color>
+    <color name="dark_gray">#7d838a</color>
+    <color name="black_overlay">#80000000</color>
+    <color name="transparent_black">#20000000</color>
+    <color name="transparent_gray">#f0f0f0</color>
+    <color name="tritary_gray">#B3B3B3</color>
+    <color name="transparent_gray_2">#FCFCFC</color>
+    <color name="red">#da0808</color>
+    <color name="green">#bf204f</color>
+    <color name="egro_red">#e0202f</color>
+    <color name="egro_blue">#1d154e</color>
+    <color name="egro_yellow">#ee6723</color>
+    <color name="egro_orange">#faa620</color>
+    <color name="egro_purble">#51164e</color>
+    <color name="black_overlay_2">#90000000</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#B3B3B3</color>
+    <color name="solid_green">#4CAF50</color>
+    <color name="solid_yellow">#FFC107</color>
+    <color name="solid_red">#FF3021</color>
+    <color name="icons_gray_color">#7D838A</color>
+
+</resources>

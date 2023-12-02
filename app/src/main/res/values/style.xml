@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FullScreenAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/transparent_gray_2</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="fontFamily">@font/english</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:progressBarStyle">@style/CustomProgressBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionButton.Overflow.Icon</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:textColor">@color/black_2</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="materialCalendarStyle">@style/MaterialCalendar</item>
+        <item name="materialCalendarFullscreenTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen</item>
+        <item name="materialCalendarTheme">@style/MaterialCalendar</item>
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <!-- Theme for Material Time Picker - default for app -->
+    <style name="MaterialCalendar" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="ActionButton.Overflow.Icon" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:tint">@color/black_2</item>
+    </style>
+
+    <style name="ActionButton.Overflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="SolidColorFullScreen" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="fontFamily">@font/english</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="SearchAppBottomSheetDialogTheme">
+        <item name="bottomSheetStyle">@style/AppModalStyleWithPeekHeight</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/white_cornered_bg_radious_50</item>
+        <!--        <item name="behavior_peekHeight">680dp</item>-->
+    </style>
+
+    <style name="AppModalStyleWithPeekHeight" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/white_cornered_bg_radious_50</item>
+        <item name="behavior_peekHeight">680dp</item>
+    </style>
+
+    <style name="MyPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+    </style>
+</resources>
